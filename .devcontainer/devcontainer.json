@@ -1,0 +1,8 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+{
+	"name": "Rust Playground",
+	"image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye",
+	"runArgs": [
+		"--name=rust_playground"
+	]
+}
