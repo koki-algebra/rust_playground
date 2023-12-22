@@ -9,8 +9,8 @@ run: ## run app
 fmt: ## format code
 	@cargo fmt
 
-.PHONY: bash ## attach to running container
-bash:
+.PHONY: bash
+bash: ## attach to running container
 	@docker exec -it --user=vscode rust_playground bash
 
 help: ## show help
